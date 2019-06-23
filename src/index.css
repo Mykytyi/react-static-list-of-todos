@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+table {
+  margin: 0 auto;
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid red;
+}
+table th {
+  border: 1px solid red;
+}
+
+table .completed {
+  color: blue;
 }
