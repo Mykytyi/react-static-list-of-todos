@@ -3,7 +3,7 @@ import {users} from '../users';
 import User from './User';
 
 function TodoItem(props) {
-  const user = users.find(function(item) {
+  const user = users.find((item) => {
     return item["id"] === props["userId"]
   });
 
